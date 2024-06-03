@@ -158,7 +158,7 @@ resource "aws_codebuild_project" "revhire-job-build" {
       value = "latest"
     }
   }
-
+####
   source {
     type            = "CODECOMMIT"
     location        = aws_codecommit_repository.revhire-job-repository.clone_url_http
