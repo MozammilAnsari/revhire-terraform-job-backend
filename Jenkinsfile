@@ -7,7 +7,7 @@ pipeline {
                 checkout scmGit(
                     branches: [[name: '*/main']],
                     extensions: [],
-                    userRemoteConfigs: [[url: 'https://github.com/prasannababu7/revhire-terraform-job-backend']]
+                    userRemoteConfigs: [[url: 'https://github.com/MozammilAnsari/revhire-terraform-job-backend.git']]
                 )
             }
         }
